@@ -45,4 +45,4 @@ III. Next Features
 IV. Is there a demo?
 =====================
 
-Yes, of course there is one. Please take a look `here <http://panorama.max-brauer.de/`_.
+Yes, of course there is one. Please take a look `here <http://panorama.max-brauer.de/>`_.
