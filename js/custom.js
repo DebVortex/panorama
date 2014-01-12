@@ -8,7 +8,7 @@ $(document).ready(function() {
     $( ".column" ).sortable({
         connectWith: ".column",
         cursor: "move",
-        cancel: ".widget-content",
+        cancel: ".widget-content, .btn",
         delay: 150,
         forceHelperSize: true,
         forcePlaceholderSize: true,

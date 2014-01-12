@@ -1,16 +1,17 @@
 <!DOCTYPE html>
     <head>
-        <title>Panorama - a free bootstrap 3 dashboard</title>
+        <title>panorama - a free bootstrap 3 dashboard template</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="a free bootstrap 3 dashboard">
+        <meta name="description" content="a free bootstrap 3 dashboard template">
         <meta name="author" content="Max Brauer <max@max-brauer.de>">
-        <meta name="keywords" content="Panorama, dashboard, design, responsive," />
+        <meta name="keywords" content="panorama, dashboard, design, responsive," />
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css"></link>
+        <link rel="stylesheet" href="css/by-night.css"></link>
 
         <script type="text/javascript" src="js/vendor/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="js/vendor/jquery.nicescroll.min.js"></script>
@@ -24,7 +25,7 @@
     <body>
 
         <!-- top-navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top dark-background" role="navigation">
+        <nav class="navbar navbar-default navbar-fixed-top background-img" role="navigation">
 
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -34,7 +35,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <span class="main-brand">Panorama</span>
+                    <span class="main-brand">panorama</span>
                     <span class="sub-brand">by night</span>
                 </a>
             </div>
@@ -44,16 +45,16 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#"><i class="icon-user"></i> Profile</a></li>
-                            <li><a href="#"><i class="icon-lock"></i> Change Password</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                            <li><a href="#"><i class="fa fa-lock"></i> Change Password</a></li>
                             <li class="divider"></li>
                             <li>
                                 <a href="#" id="restore-widget-order">
-                                    <i class=""></i>Restore Widget Order
+                                    <i class="fa fa-random"></i> Restore Widget Order
                                 </a>
                             </li>
                             <li class="divider"></li>
-                            <li><a href="#"><i class="icon-signout"></i> Logout</a></li>
+                            <li><a href="#"><i class="fa fa-lock"></i> Logout</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -62,22 +63,22 @@
         <!-- /top-navigation -->
 
         <!-- side-navigation -->
-        <nav class="sidenav dark-background">
+        <nav class="sidenav background-img">
             <ul>
                 <li>
-                    <i class="icon-dashboard active"></i>
+                    <i class="fa fa-dashboard active"></i>
                     <a href="index.html" class="app-title">Dashboard</a>
                 </li>
                 <li>
-                    <i class="icon-terminal"></i>
+                    <i class="fa fa-terminal"></i>
                     <a href="https://github.com/DebVortex/panorama" class="app-title">Source Code</a>
                 </li>
                 <!--li>
-                    <i class="icon-calendar"></i>
+                    <i class="fa fa-calendar"></i>
                     <a href="calendar.html" class="app-title">Calendar</a>
                 </li-->
                 <li>
-                    <i class="icon-reorder"></i>
+                    <i class="fa fa-bars"></i>
                     <a class="app-title">Other Apps</a>
                 </li>
             </ul>
@@ -90,28 +91,31 @@
 
         <div class="row">
             <div class="col-md-4 column" id="col1">
-                <div class="widget" id="calendar">
-                    <div class="widget-header dark-background">
-                        <i class="glyphicon glyphicon-calendar"></i>
+                <div class="widget" id="panorama_info">
+                    <div class="widget-header background-img">
+                        <i class="fa fa-bookmark"></i>
                         <div class="collapsebutton btn-group pull-right" data-toggle="buttons-checkbox">
                             <button type="button"
                                     class="btn btn-default btn-xs"
                                     data-toggle="collapse"
-                                    data-target="#widgetcontent_calendar"
+                                    data-target="#widgetcontent_panorama_info"
                                     title="Widget einklappen">
                                 _
                             </button>
                         </div>
-                        Calendar
+                        panorama Info-Box
                     </div>
-                    <div class="widget-content collapse in" id="widgetcontent_calendar">
+                    <div class="widget-content collapse in" id="widgetcontent_panorama_info">
+                        <p>
+                            panorama is a free, bootstrap 3 based template for your dashboard application. It comes with the possibility to rearange the widgets via drag and drop or minimize them via a click on the specific button. All the information are stored inside of a cookie.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 column" id="col2">
                 <div class="widget" id="rss-reader">
-                    <div class="widget-header dark-background">
-                        <i class="glyphicon glyphicon-bookmark"></i>
+                    <div class="widget-header background-img">
+                        <i class="fa fa-rss"></i>
                         <div class="collapsebutton btn-group pull-right" data-toggle="buttons-checkbox">
                             <button type="button"
                                     class="btn btn-default btn-xs collapse-btn"
@@ -127,9 +131,28 @@
                         <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<p>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-4 column" id="col3">
+                <div class="widget" id="calendar">
+                    <div class="widget-header background-img">
+                        <i class="fa fa-calendar"></i>
+                        <div class="collapsebutton btn-group pull-right" data-toggle="buttons-checkbox">
+                            <button type="button"
+                                    class="btn btn-default btn-xs"
+                                    data-toggle="collapse"
+                                    data-target="#widgetcontent_calendar"
+                                    title="Widget einklappen">
+                                _
+                            </button>
+                        </div>
+                        Calendar
+                    </div>
+                    <div class="widget-content collapse in" id="widgetcontent_calendar">
+                    </div>
+                </div>
                 <div class="widget" id="weather">
-                    <div class="widget-header dark-background">
-                        <i class="glyphicon glyphicon-cloud"></i>
+                    <div class="widget-header background-img">
+                        <i class="fa fa-cloud"></i>
                         <div class="collapsebutton btn-group pull-right" data-toggle="buttons-checkbox">
                             <button type="button"
                                     class="btn btn-default btn-xs"
@@ -145,8 +168,6 @@
                         <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<p>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 column" id="col3">
             </div>
         </div>
     </body>

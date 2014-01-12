@@ -1,0 +1,67 @@
+.background-img {
+    background: url('../img/stressed_linen.png');
+}
+
+.navbar {
+    color: #EEEEEE;
+}
+
+.navbar-brand {
+    color: #EEEEEE!important;
+}
+
+.navbar-nav > li > a {
+    color: #EEEEEE!important;
+}
+
+.sidenav {
+    color: #EEEEEE;
+}
+
+.sidenav:hover .app-title {
+    color: #EEEEEE;
+}
+
+.sidenav i {
+    color: #EEEEEE;
+}
+
+.widget-header {
+    color: #EEEEEE;
+    border-color: #333;
+    -moz-text-shadow: 2px 2px 1px #777;
+    -webkit-text-shadow: 2px 2px 1px #777;
+    text-shadow: 2px 2px 1px #777;
+}
+
+.widget-content {
+    background-color: #FFF;
+    border-left: 1px solid #AAA;
+    border-bottom: 2px solid #555;
+    border-right: 2px solid #555;
+    padding: 0.5em;
+}
+
+.ui-widget-header {
+    background: url('../img/stressed_linen.png');
+    border: 1px solid #333;
+    color: #EEEEEE;
+    -moz-text-shadow: 2px 2px 1px #777;
+    -webkit-text-shadow: 2px 2px 1px #777;
+    text-shadow: 2px 2px 1px #777;
+}
+
+.ui-datepicker-next, .ui-datepicker-prev {
+    background-color: #FFFFFF;
+    border-color: #AAAAAA;
+}
+
+.ui-datepicker-calendar td * {
+    border: 1px solid #EFEFEF;
+    background-color: #DFDFDF;
+    color: #000;
+}
+
+.ui-datepicker-current-day a {
+    background-color: #AAA;
+}
