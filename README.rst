@@ -29,11 +29,17 @@ III. Next Features
 ==================
 
 * a basic bright theme ("panorama - by day")
+
 * calendarentries for the calendar widget (via tooltip)
+
 * full-page calendar-app (with calendarentries)
+
 * theming for RSS-portlet
+
 * full-page RSS-app
+
 * theming and use of a API for a weather widget
+
 * full-page weather-app
 
 IV. Is there a demo?
