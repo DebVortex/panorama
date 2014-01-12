@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+    <head>
+        <title>Panorama - a free bootstrap 3 dashboard</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="a free bootstrap 3 dashboard">
+        <meta name="author" content="Max Brauer <max@max-brauer.de>">
+        <meta name="keywords" content="Panorama, dashboard, design, responsive," />
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css"></link>
+
+        <script type="text/javascript" src="js/vendor/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.nicescroll.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.cookie.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery-ui.custom.min.js"></script>
+        <script type="text/javascript" src="js/vendor/retina.js"></script>
+        <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/dashboard.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+    </head>
+    <body>
+
+        <!-- top-navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top dark-background" role="navigation">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="main-brand">Panorama</span>
+                    <span class="sub-brand">by night</span>
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="icon-user"></i> Profile</a></li>
+                            <li><a href="#"><i class="icon-lock"></i> Change Password</a></li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#" id="restore-widget-order">
+                                    <i class=""></i>Restore Widget Order
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="icon-signout"></i> Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /top-navigation -->
+
+        <!-- side-navigation -->
+        <nav class="sidenav dark-background">
+            <ul>
+                <li>
+                    <i class="icon-dashboard active"></i>
+                    <a href="index.html" class="app-title">Dashboard</a>
+                </li>
+                <li>
+                    <i class="icon-terminal"></i>
+                    <a href="http://github.com/DebVortex/" class="app-title">Source Code</a>
+                </li>
+                <li>
+                    <i class="icon-calendar"></i>
+                    <a href="calendar.html" class="app-title">Calendar</a>
+                </li>
+                <li>
+                    <i class="icon-reorder"></i>
+                    <a class="app-title">Other Apps</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /side-navigation -->
+
+        <div>
+            <h1>Dashboard</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 column" id="col1">
+                <div class="widget" id="calendar">
+                    <div class="widget-header dark-background">
+                        <i class="glyphicon glyphicon-calendar"></i>
+                        <div class="collapsebutton btn-group pull-right" data-toggle="buttons-checkbox">
+                            <button type="button"
+                                    class="btn btn-default btn-xs"
+                                    data-toggle="collapse"
+                                    data-target="#widgetcontent_calendar"
+                                    title="Widget einklappen">
+                                _
+                            </button>
+                        </div>
+                        Calendar
+                    </div>
+                    <div class="widget-content collapse in" id="widgetcontent_calendar">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 column" id="col2">
+                <div class="widget" id="rss-reader">
+                    <div class="widget-header dark-background">
+                        <i class="glyphicon glyphicon-bookmark"></i>
+                        <div class="collapsebutton btn-group pull-right" data-toggle="buttons-checkbox">
+                            <button type="button"
+                                    class="btn btn-default btn-xs collapse-btn"
+                                    data-toggle="collapse"
+                                    data-target="#widgetcontent_rss-reader"
+                                    title="Widget einklappen">
+                                _
+                            </button>
+                        </div>
+                        RSS-Reader
+                    </div>
+                    <div class="widget-content collapse in" id="widgetcontent_rss-reader">
+                        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<p>
+                    </div>
+                </div>
+                <div class="widget" id="weather">
+                    <div class="widget-header dark-background">
+                        <i class="glyphicon glyphicon-cloud"></i>
+                        <div class="collapsebutton btn-group pull-right" data-toggle="buttons-checkbox">
+                            <button type="button"
+                                    class="btn btn-default btn-xs"
+                                    data-toggle="collapse"
+                                    data-target="#widgetcontent_weather"
+                                    title="Widget einklappen">
+                                _
+                            </button>
+                        </div>
+                        Weather
+                    </div>
+                    <div class="widget-content collapse in" id="widgetcontent_weather">
+                        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 column" id="col3">
+            </div>
+        </div>
+    </body>
+</html>
