@@ -53,3 +53,20 @@ IV. Is there a demo?
 =====================
 
 Yes, of course there is one. Please take a look `here <http://panorama.max-brauer.de/>`_.
+
+V. Used software
+================
+
+panorama is using other open source software, parts of it or is inspired by them:
+
+* `bootstrap 3 <http://http://getbootstrap.com/>`_, License: Apache License v2.0
+
+* `jQuery <http://www.jquery.com>`_, License: MIT
+
+* `jQuery Cookie Plugin <https://github.com/carhartl/jquery-cookie/>`_, License: MIT/GPL
+
+* `jQuery UI <http://jqueryui.com>`_ with custom ui components: core, widget, mouse, sortable, datepicker, License: MIT
+
+* `jQuery NiceScroll <http://areaaperta.com/nicescroll/>`_, License: MIT
+
+* `OpenSlides <http://www.openslides.org/>`_, gave me the idea of storing the widget order in a cookie
