@@ -61,6 +61,8 @@ panorama is using other open source software, parts of it or is inspired by them
 
 * `bootstrap 3 <http://http://getbootstrap.com/>`_, License: Apache License v2.0
 
+* `Font Awesome <http://fontawesome.io/>`_, Licenses: SIL OFL 1.1 (fonts), MIT License (code), CC BY 3.0 (documentation)
+
 * `jQuery <http://www.jquery.com>`_, License: MIT
 
 * `jQuery Cookie Plugin <https://github.com/carhartl/jquery-cookie/>`_, License: MIT/GPL
