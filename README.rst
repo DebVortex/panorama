@@ -71,4 +71,4 @@ panorama is using other open source software, parts of it or is inspired by them
 
 * `jQuery NiceScroll <http://areaaperta.com/nicescroll/>`_, License: MIT
 
-* `OpenSlides <http://www.openslides.org/>`_, gave me the idea of storing the widget order in a cookie
+* `OpenSlides <http://www.openslides.org/>`_ gave me the idea of storing the widget order in a cookie. License: MIT
