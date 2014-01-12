@@ -17,12 +17,19 @@ II. What features does it provide?
 Currently this project is in an early state, so the features are limited. If you want to know what is planed for the future, read the section below.
 
 Features:
+
 * a basic dark theme ("panorama - by night")
+
 * sortable widgets via drag&drop
+
 * minimizeable widgets
+
 * storing of possition and state of widgets in a cookie
+
 * button to restore the basic ordering of widgets
+
 * CSS3-based navbar on the left side
+
 * calendar widget
 
 III. Next Features
