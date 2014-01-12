@@ -202,6 +202,15 @@ h1 {
     height: 50px !important;
 }
 
+.switch-day {
+
+}
+
+.switch-night {
+    background: url('../img/stressed_linen.png')!important;
+    font-weight: bolder;
+}
+
 /*
  * Calendar
  */

@@ -27,5 +27,6 @@ $(document).ready(function() {
     $('#restore-widget-order').click(function () {
         defaultOrder();
     });
+    $('#theme-switcher').bootstrapSwitch();
     restoreOrder();
 });
