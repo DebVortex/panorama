@@ -1,11 +1,11 @@
 var theme_cookieName = "panorama-theme";
 
 function saveChoosenTheme(day_or_night) {
-    $.cookie(dashboard_cookieName, day_or_night);
+    $.cookie(theme_cookieName, day_or_night);
 }
 
 function loadChoosenTheme() {
-    var day_or_night = $.cookie(dashboard_cookieName);
+    var day_or_night = $.cookie(theme_cookieName);
     if (day_or_night === null) {
         $('#theme-switcher').bootstrapSwitch('setState', true);
     } else {
