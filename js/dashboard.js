@@ -1,4 +1,4 @@
-var cookieName = "panorama-dashboard";
+var dashboard_cookieName = "panorama-dashboard";
 
 function saveOrder() {
     cookieContent = {};
@@ -15,11 +15,11 @@ function saveOrder() {
             'widgetID': widgetID, 'is_collapsed': is_collapsed
         };
     });
-    $.cookie(cookieName, JSON.stringify(cookieContent));
+    $.cookie(dashboard_cookieName, JSON.stringify(cookieContent));
 }
 
 function restoreOrder() {
-    var dashboar_order = JSON.parse($.cookie(cookieName));
+    var dashboar_order = JSON.parse($.cookie(dashboard_cookieName));
     for (var column_id in dashboar_order) {
         var column = $('#' + column_id);
         var column_info = dashboar_order[column_id];
@@ -36,6 +36,6 @@ function restoreOrder() {
 }
 
 function defaultOrder() {
-    $.cookie(cookieName, null);
+    $.cookie(dashboard_cookieName, null);
     location.reload();
 }

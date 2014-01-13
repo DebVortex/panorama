@@ -14,8 +14,13 @@
     color: #EEEEEE!important;
 }
 
+.sub-brand {
+    color: #000000;
+}
+
 .sidenav {
     color: #EEEEEE;
+    border-right: 2px solid black;
 }
 
 .sidenav:hover .app-title {
@@ -32,6 +37,7 @@
     -moz-text-shadow: 2px 2px 1px #777;
     -webkit-text-shadow: 2px 2px 1px #777;
     text-shadow: 2px 2px 1px #777;
+    border: 1px solid #333;
 }
 
 .widget-content {
@@ -64,4 +70,20 @@
 
 .ui-datepicker-current-day a {
     background-color: #AAA;
+}
+
+.sidenav i.active {
+    color: #000;
+    background: #fcf4ae; /* Old browsers */
+    background: -moz-linear-gradient(left,  #fcf4ae 0%, #f1da36 84%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fcf4ae), color-stop(84%,#f1da36)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #fcf4ae 0%,#f1da36 84%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #fcf4ae 0%,#f1da36 84%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #fcf4ae 0%,#f1da36 84%); /* IE10+ */
+    background: linear-gradient(to right,  #fcf4ae 0%,#f1da36 84%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf4ae', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 */
+}
+
+.sidenav:hover i.active:after {
+    border-left-color: #f1da36;
 }
