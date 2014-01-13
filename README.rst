@@ -20,6 +20,10 @@ Features:
 
 * a basic dark theme ("panorama - by night")
 
+* a basic bright theme ("panorama - by day")
+
+* possiblity to switch theme
+
 * sortable widgets via drag&drop
 
 * minimizeable widgets
@@ -34,8 +38,6 @@ Features:
 
 III. Next Features
 ==================
-
-* a basic bright theme ("panorama - by day")
 
 * calendarentries for the calendar widget (via tooltip)
 
