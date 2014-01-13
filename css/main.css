@@ -73,7 +73,6 @@ body {
     -moz-transition: width 0.2s;
     -o-transition: width 0.2s;
     z-index: 999;
-    border-right: 2px solid black;
 }
 
 .sidenav:hover {
@@ -121,18 +120,6 @@ body {
     padding: 2px 6px 2px 6px;
 }
 
-.sidenav i.active {
-    color: #000;
-    background: #fcf4ae; /* Old browsers */
-    background: -moz-linear-gradient(left,  #fcf4ae 0%, #f1da36 84%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fcf4ae), color-stop(84%,#f1da36)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  #fcf4ae 0%,#f1da36 84%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left,  #fcf4ae 0%,#f1da36 84%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left,  #fcf4ae 0%,#f1da36 84%); /* IE10+ */
-    background: linear-gradient(to right,  #fcf4ae 0%,#f1da36 84%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf4ae', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 */
-}
-
 .sidenav:hover i.active:after {
     content: ' ';
     height: 0;
@@ -140,9 +127,7 @@ body {
     width: 0;
     margin-top: 5px;
     margin-left: 4px;
-
     border: 8px solid transparent;
-    border-left-color: #f1da36;
 }
 
 .widget {
@@ -162,7 +147,6 @@ h1 {
 .widget-header {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    border: 1px solid #333;
     padding-left: 0.5em;
     padding-right: 0.5em;
     padding-top: 0.1em;
@@ -202,6 +186,23 @@ h1 {
     height: 50px !important;
 }
 
+.switch-day {
+    background: rgb(226,226,226)!important; /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%)!important; /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,226,226,1)), color-stop(50%,rgba(219,219,219,1)), color-stop(51%,rgba(209,209,209,1)), color-stop(100%,rgba(254,254,254,1)))!important; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%)!important; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%)!important; /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%)!important; /* IE10+ */
+    background: linear-gradient(to bottom, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%)!important; /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 )!important; /* IE6-9 */
+    font-weight: bold;
+}
+
+.switch-night {
+    background: url('../img/stressed_linen.png')!important;
+    font-weight: bold;
+}
+
 /*
  * Calendar
  */
@@ -230,7 +231,7 @@ h1 {
     border-bottom-width: 1px;
     border-top-width: 0;
     border-style: solid;
-    margin: 2px;
+    margin: 3px;
 	width: 1.6em!important;
 	height: 1.6em!important;
 }

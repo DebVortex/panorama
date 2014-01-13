@@ -8,16 +8,18 @@
         <meta name="author" content="Max Brauer <max@max-brauer.de>">
         <meta name="keywords" content="panorama, dashboard, design, responsive," />
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css"></link>
+        <link rel="stylesheet" href="css/font-awesome.min.css"></link>
+        <link rel="stylesheet" href="css/bootstrap-switch.min.css"></link>
         <link rel="stylesheet" href="css/main.css"></link>
-        <link rel="stylesheet" href="css/by-night.css"></link>
+        <link id="theme-file" rel="stylesheet" href="css/by-night.css"></link>
 
         <script type="text/javascript" src="js/vendor/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="js/vendor/jquery.nicescroll.min.js"></script>
         <script type="text/javascript" src="js/vendor/jquery.cookie.js"></script>
         <script type="text/javascript" src="js/vendor/jquery-ui.custom.min.js"></script>
         <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/vendor/bootstrap-switch.min.js"></script>
         <script type="text/javascript" src="js/dashboard.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
 
@@ -86,6 +88,12 @@
         <!-- /side-navigation -->
 
         <div>
+            <span class="pull-right">
+                <label id="label-theme-switcher">Theme: </label>
+                <input id="theme-switcher" type="checkbox" checked
+                       data-on-label="night" data-on="night"
+                       data-off-label="day" data-off="day">
+            </span>
             <h1>Dashboard</h1>
         </div>
 
@@ -107,7 +115,7 @@
                     </div>
                     <div class="widget-content collapse in" id="widgetcontent_panorama_info">
                         <p>
-                            panorama is a free, bootstrap 3 based template for your dashboard application. It comes with the possibility to rearange the widgets via drag and drop or minimize them via a click on the specific button. All the information are stored inside of a cookie.
+                            panorama is a free, bootstrap 3 based template for your dashboard application. It comes with the possibility to rearange the widgets via drag and drop or minimize them via a click on the specific button. You also have the possibility to choose between two designes: panorama by day or panorama by nicht. All the information are stored inside of cookies.
                         </p>
                     </div>
                 </div>
