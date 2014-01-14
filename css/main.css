@@ -225,23 +225,33 @@ h1 {
  */
 
 .weather-icon-box {
-    border: 1px solid #AAAAAA;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    width: 100px;
-    height: 100px;
-    background-color: #DBF2F9;
+    width: 110px;
+    height: 110px;
     float: right;
-    margin-left: 0.5em
+    margin: 0.9em;
 }
 
 .weather-icon {
-    width: 97px;
-    height: 97px;
+    width: 100%;
+    height: 100%;
 }
 
 .weather-info-box span {
     font-size: 120%;
+}
+
+.icon-conrtibution {
+    font-size: 80%;
+    font-style: italic;
+    color: #BBBBBB;
+    text-align: right;
+    margin-top: -0.7em;
+}
+
+.icon-conrtibution a {
+    color: #BBBBBB;
+    font-weight: bold;
+    font-size: 105%;
 }
 
 /*
