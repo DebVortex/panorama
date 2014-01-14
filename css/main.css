@@ -221,6 +221,30 @@ h1 {
 }
 
 /*
+ * Weather
+ */
+
+.weather-icon-box {
+    border: 1px solid #AAAAAA;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    width: 100px;
+    height: 100px;
+    background-color: #DBF2F9;
+    float: right;
+    margin-left: 0.5em
+}
+
+.weather-icon {
+    width: 97px;
+    height: 97px;
+}
+
+.weather-info-box span {
+    font-size: 120%;
+}
+
+/*
  * Calendar
  */
 

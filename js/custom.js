@@ -19,6 +19,23 @@ function loadChoosenTheme() {
     }
 }
 
+function weatherWidget() {
+    $('.weather-temperature').openWeather({
+        city: 'Leipzig, Germany',
+        placeTarget: '.weather-place',
+        units: 'c',
+        descriptionTarget: '.weather-description',
+        windSpeedTarget: '.weather-wind-speed',
+        humidityTarget: '.weather-humidity',
+        sunriseTarget: '.weather-sunrise',
+        sunsetTarget: '.weather-sunset',
+        iconTarget: '.weather-icon',
+        customIcons: 'img/weather/',
+        error: function(message) {
+            console.log(message);
+        }
+    });
+}
 
 $(document).ready(function() {
     $('#theme-switcher').bootstrapSwitch();
@@ -68,4 +85,6 @@ $(document).ready(function() {
     restoreOrder();
 
     parseRSS(feeds);
+
+    weatherWidget();
 });
