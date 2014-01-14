@@ -38,6 +38,8 @@ Features:
 
 * RSS widget
 
+* weather widget (using the openWeather API)
+
 III. Next Features
 ==================
 
@@ -46,8 +48,6 @@ III. Next Features
 * full-page calendar-app (with calendarentries)
 
 * full-page RSS-app
-
-* theming and use of a API for a weather widget
 
 * full-page weather-app
 
@@ -76,3 +76,5 @@ panorama is using other open source software, parts of it or is inspired by them
 * `jQuery NiceScroll <http://areaaperta.com/nicescroll/>`_, License: MIT
 
 * `OpenSlides <http://www.openslides.org/>`_ gave me the idea of storing the widget order in a cookie. License: MIT
+
+* `Open Weather <https://github.com/michael-lynch/open-weather>`_, License: MIT
