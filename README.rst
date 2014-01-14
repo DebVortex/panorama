@@ -2,7 +2,7 @@
  panorama
 ==========
 
-Version: 0.2
+Version: 0.3
 
 I. What is panorama?
 ====================
@@ -20,6 +20,10 @@ Features:
 
 * a basic dark theme ("panorama - by night")
 
+* a basic bright theme ("panorama - by day")
+
+* possiblity to switch theme
+
 * sortable widgets via drag&drop
 
 * minimizeable widgets
@@ -32,20 +36,18 @@ Features:
 
 * calendar widget
 
+* RSS widget
+
+* weather widget (using the openWeather API)
+
 III. Next Features
 ==================
-
-* a basic bright theme ("panorama - by day")
 
 * calendarentries for the calendar widget (via tooltip)
 
 * full-page calendar-app (with calendarentries)
 
-* theming for RSS-portlet
-
 * full-page RSS-app
-
-* theming and use of a API for a weather widget
 
 * full-page weather-app
 
@@ -61,6 +63,8 @@ panorama is using other open source software, parts of it or is inspired by them
 
 * `bootstrap 3 <http://http://getbootstrap.com/>`_, License: Apache License v2.0
 
+* `bootstrap switch <http://www.bootstrap-switch.org/>`_, License: Apache License v2.0
+
 * `Font Awesome <http://fontawesome.io/>`_, Licenses: SIL OFL 1.1 (fonts), MIT License (code), CC BY 3.0 (documentation)
 
 * `jQuery <http://www.jquery.com>`_, License: MIT
@@ -72,3 +76,5 @@ panorama is using other open source software, parts of it or is inspired by them
 * `jQuery NiceScroll <http://areaaperta.com/nicescroll/>`_, License: MIT
 
 * `OpenSlides <http://www.openslides.org/>`_ gave me the idea of storing the widget order in a cookie. License: MIT
+
+* `Open Weather <https://github.com/michael-lynch/open-weather>`_, License: MIT
