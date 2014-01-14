@@ -20,7 +20,6 @@ function parseRSS(urls) {
     $('#widgetcontent_rss-reader').html('');
     for (var i = 0; i<urls.length; i++) {
         url = protocol + feed_base_url + encodeURIComponent(urls[i]);
-        console.log(url);
         $.ajax({
             url: url,
             dataType: 'json',
