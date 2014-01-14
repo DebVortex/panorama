@@ -1,4 +1,6 @@
 var theme_cookieName = "panorama-theme";
+var feeds = new Array('https://www.djangoproject.com/rss/weblog/');
+
 
 function saveChoosenTheme(day_or_night) {
     $.cookie(theme_cookieName, day_or_night);
@@ -64,4 +66,6 @@ $(document).ready(function() {
         defaultOrder();
     });
     restoreOrder();
+
+    parseRSS(feeds);
 });

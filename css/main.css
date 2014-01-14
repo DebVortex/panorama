@@ -176,6 +176,23 @@ h1 {
     border-top: none;
 }
 
+.widget-content h2, .widget-content hr {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.widget-content h3 {
+    margin-top: 0.5em;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.widget-content h3 a {
+    color: #000000;
+    text-decoration: underline;
+}
+
 .column {
     min-height: 200px;
 }

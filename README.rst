@@ -36,14 +36,14 @@ Features:
 
 * calendar widget
 
+* RSS widget
+
 III. Next Features
 ==================
 
 * calendarentries for the calendar widget (via tooltip)
 
 * full-page calendar-app (with calendarentries)
-
-* theming for RSS-portlet
 
 * full-page RSS-app
 
