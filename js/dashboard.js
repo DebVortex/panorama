@@ -19,10 +19,10 @@ function saveOrder() {
 }
 
 function restoreOrder() {
-    var dashboar_order = JSON.parse($.cookie(dashboard_cookieName));
-    for (var column_id in dashboar_order) {
+    var dashboard_order = JSON.parse($.cookie(dashboard_cookieName));
+    for (var column_id in dashboard_order) {
         var column = $('#' + column_id);
-        var column_info = dashboar_order[column_id];
+        var column_info = dashboard_order[column_id];
         for (var widget_order in column_info) {
             var widget_information = column_info[widget_order];
             var widget = $('#' + widget_information['widgetID']);
