@@ -102,13 +102,6 @@ body {
     line-height: 1.4;
 }
 
-.fake {
-    /* mark a fake object to have a anchor for ui-sortable */
-    padding: 0;
-    height: 1px;
-    z-index: -999;
-}
-
 .sidenav i {
     width: 34px;
     height: 30px;
